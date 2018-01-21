@@ -1,0 +1,39 @@
+@font-face {
+    font-family: SegoeUIBold;
+    src: url(../fonts/user_fonts/SegoeUIBold.woff);
+}
+
+@font-face {
+    font-family: SegoeUILight;
+    src: url(../fonts/user_fonts/SegoeUILight.woff);
+}
+
+@font-face {
+    font-family: SegoeUIRegular;
+    src: url(../fonts/user_fonts/SegoeUIRegular.woff);
+}
+
+@font-face {
+    font-family: SegoeUISemiBold;
+    src: url(../fonts/user_fonts/SegoeUISemiBold.woff);
+}
+
+@font-face {
+    font-family: RobotoBold;
+    src: url(../fonts/user_fonts/RobotoBold.woff);
+}
+
+@font-face {
+    font-family: RobotoLight;
+    src: url(../fonts/user_fonts/RobotoLight.woff);
+}
+
+@font-face {
+    font-family: RobotoMedium;
+    src: url(../fonts/user_fonts/RobotoMedium.woff);
+}
+
+@font-face {
+    font-family: RobotoRegular;
+    src: url(../fonts/user_fonts/RobotoRegular.woff);
+}

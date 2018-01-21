@@ -1,0 +1,833 @@
+/*Common*/
+
+html, body, a, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: SegoeUIRegular;
+    color: #fff;
+    font-size: 14px;
+    height: 2000px;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 40px;
+    border-radius: 4px;
+    background: #3333ff;
+    font-size: 20px;
+    text-decoration: none;
+    border: 0;
+    white-space: normal;
+}
+
+.button:hover {
+    padding: 10px 40px;
+    border-radius: 4px;
+    background: #1111ff;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.btn-success:active
+{
+    background: #1111ff;
+}
+
+
+
+
+/*Style*/
+
+.navbar {
+    border-radius: 0;
+    margin-bottom: 0;
+    border: 0;
+    background: rgba(0, 0, 0, 0);
+}
+
+.navbar-inverse .navbar-toggle {
+    float: left;
+    margin-left: 29px;
+    background: #3333ff;
+}
+
+.navbar-inverse .navbar-toggle:hover {
+    float: left;
+    background: #3333ff;
+}
+
+.navbar-nav {
+    float: none;
+    display: inline-block;
+
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    font-family: SegoeUISemiBold;
+    color: #fff;
+    padding: 8px;
+    margin: 10px 35px 2px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover {
+    border: 3px solid #3333ff;
+    padding: 5px;
+    text-align: center;
+}
+
+header {
+    background: url(../img/background-1.jpg);
+    background-position-x: center;
+    text-align: center;
+}
+
+.header-top {
+    background: rgba(0, 0, 0, 0.65);
+}
+
+.logo {
+    font-size: 40px;
+    margin-top: 45px;
+    margin-bottom: 20px;
+    font-family: SegoeUIBold;
+    padding-left: 14px;
+}
+
+.logo span {
+    color: #3333ff;
+}
+
+.catalog {
+    margin-top: 40px;
+    margin-bottom: 5px;
+}
+
+.catalog a {
+    font-size: 26px;
+    text-decoration: none;
+    color: #fff;
+    padding: 20px 0;
+    width: 275px;
+    text-transform: uppercase;
+}
+
+.catalog a:hover {
+    font-size: 26px;
+    text-decoration: none;
+    color: #fff;
+    padding: 20px 0;
+    width: 275px;
+    text-transform: uppercase;
+}
+
+.contacts {
+    text-align: left;
+    padding-left: 50px;
+}
+
+.contacts p {
+    margin-top: 5px;
+}
+
+.adress {
+    padding-left: 0;
+}
+
+.skype {
+    background: url(../img/skype.png) no-repeat;
+    -webkit-background-size: 20px;
+    background-size: contain;
+    padding-left: 30px;
+}
+
+.viber {
+    background: url(../img/viber.png) no-repeat;
+    -webkit-background-size: 20px;
+    background-size: contain;
+    padding-left: 30px;
+}
+
+.mobile {
+    background: url(../img/icon-mobile.png) no-repeat;
+    -webkit-background-size: 20px;
+    background-size: contain;
+    padding-left: 30px;
+}
+
+.email {
+    background: url(../img/email.png) no-repeat;
+    -webkit-background-size: 20px;
+    background-size: contain;
+    padding-left: 30px;
+}
+
+.call-query button {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 5px 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.call-query button:hover {
+    position: relative;
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 5px 15px;
+    text-transform: uppercase;
+}
+
+.promo h1 {
+    display: inline-block;
+    margin-top: 30px;
+    margin-bottom: 0;
+    text-shadow: 0 0 50px #000, 0 0 50px #000, 0 0 50px #000, 0 0 50px #000;
+    text-transform: uppercase;
+    padding: 10px 15px;
+    font-size: 42px;
+}
+
+.promo h2 {
+    margin-top: 100px;
+    margin-bottom: 0;
+    text-shadow: 0 0 50px #000, 0 0 50px #000, 0 0 50px #000, 0 0 50px #000;
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 10px 15px;
+}
+
+.promo h3 {
+    margin-top: 30px;
+    margin-bottom: 150px;
+    text-shadow: 0 0 50px #000, 0 0 50px #000, 0 0 50px #000, 0 0 50px #000;
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 10px 15px;
+}
+
+.request {
+    margin-top: 30px;
+    margin-bottom: 0;
+}
+
+.request button {
+    font-size: 30px;
+    text-decoration: none;
+    color: #fff;
+    padding: 20px 0;
+    width: 400px;
+    text-transform: uppercase;
+}
+
+.request button:hover {
+    font-size: 30px;
+    text-decoration: none;
+    color: #fff;
+    padding: 20px 0;
+    width: 400px;
+    text-transform: uppercase;
+}
+
+/* Services */
+.services {
+    margin: 0;
+    padding: 20px 20px 60px;
+    background: #3333ff;
+}
+
+.services h2 {
+    position: relative;
+    font-family: SegoeUILight;
+    font-size: 30px;
+    font-weight: 300;
+    text-transform: uppercase;
+    margin-bottom: 70px;
+}
+
+.services h2::after {
+    position: absolute;
+    bottom: -7px;
+    left: 1px;
+    width: 45px;
+    height: 2px;
+    background-color: #fff;
+    content: "";
+}
+
+.service {
+    margin: 16px auto 0;
+    padding-top: 120px;
+}
+
+.service h3 {
+    font-family: SegoeUISemiBold;
+    font-size: 16px;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.service p {
+    font-size: 16px;
+    line-height: 25px;
+    text-align: center;
+    margin: 30px 0 0;
+    padding: 0;
+}
+
+.srv-1 {
+    background: url(../img/srv-1.png) center 20px no-repeat;
+    background-size: 80px 80px;
+}
+
+.srv-2 {
+    background: url(../img/srv-2.png) center 20px no-repeat;
+    background-size: 80px 80px;
+}
+
+.srv-3 {
+    background: url(../img/srv-3.png) center 20px no-repeat;
+    background-size: 80px 80px;
+}
+
+.srv-4 {
+    background: url(../img/srv-4.png) center 20px no-repeat;
+    background-size: 80px 80px;
+}
+
+.srv-5 {
+    background: url(../img/srv-5.png) center 20px no-repeat;
+    background-size: 80px 80px;
+}
+
+/* Assortment */
+.assortment {
+    margin: 0 auto;
+    max-width: 1920px;
+    min-height: 890px;
+    padding-top: 57px;
+    color: #000;
+}
+
+.assortment-header {
+    padding-top: 20px;
+    margin-bottom: 50px;
+}
+
+.assortment h2 {
+    margin-top: 0;
+    position: relative;
+    float: left;
+    color: #000;
+    font-family: SegoeUILight;
+    font-size: 30px;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+
+.assortment h2::after {
+    position: absolute;
+    bottom: -13px;
+    left: 0;
+    width: 45px;
+    height: 2px;
+    background-color: #000;
+    content: "";
+}
+
+.item {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.item h3{
+    height: 100px;
+    font-size: 24px;
+}
+
+.item img {
+    display: inline-block;
+    height: 80px
+}
+
+.item button{
+    display: inline-block;
+    color: #fff;
+}
+
+.item button:hover{
+    color: #fff;
+}
+
+.assortment .img-responsive {
+    margin-bottom: 30px;
+}
+
+/*Steps*/
+.steps {
+    padding-bottom: 150px;
+    padding-top: 70px;
+    margin: 0 auto;
+    max-width: 1920px;
+    background-image: url(../img/fura-1.jpg);
+    background-size: cover;
+    background-position-x: 0;
+    background-position-y: -143px;
+}
+
+.steps h2 {
+    margin-bottom: 100px;
+    position: relative;
+    font-family: SegoeUILight;
+    font-size: 30px;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+
+.steps h2::after {
+    position: absolute;
+    bottom: -13px;
+    left: 1px;
+    width: 45px;
+    height: 2px;
+    background-color: #fff;
+    content: "";
+}
+
+.step-block{
+    font-weight: 400;
+    margin-bottom: 24px;
+    display: inline-block;
+    font-size: 18px;
+    line-height: 24px;
+    font-family: SegoeUILight;
+    border: 5px solid #3333ff;
+    border-radius: 20px;
+    height: 200px;
+    width: 200px;
+    vertical-align: middle;
+    padding: 10px;
+    background-color: #3333ff;
+}
+
+.step-block h4{
+    font-size: 24px;
+    text-align: center;
+    font-family: SegoeUISemiBold;
+}
+
+.step::after {
+    content:"";
+    display: inline-block;
+    height: 51px;
+    width: 51px;
+    background: url(../img/arrow.svg) center no-repeat;
+    background-size: contain;
+    margin-left: 10px;
+}
+
+.step-4::after {
+    display: none;
+}
+
+.step-block p{
+    font-size: 18px;
+    text-align: center;
+}
+
+.reasons .col-xs-12,
+.reasons .col-sm-6,
+.reasons .col-md-6,
+.reasons .col-lg-3,
+.step {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+/*Reasons*/
+.reasons {
+    padding-bottom: 56px;
+    padding-top: 53px;
+    margin: 0 auto;
+    max-width: 1920px;
+    background: #3333ff;
+}
+
+.reasons h2 {
+    margin-bottom: 33px;
+    position: relative;
+    font-family: SegoeUILight;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.reasons h2::after {
+    position: absolute;
+    bottom: -8px;
+    left: 1px;
+    width: 45px;
+    height: 2px;
+    background-color: #fff;
+    content: "";
+}
+
+.reason-1 {
+    margin-bottom: 30px;
+    height: 68px;
+    width: 68px;
+    background: url(../img/number-1.svg) center no-repeat;
+    background-size: 68px 68px;
+}
+
+.reason-2 {
+    margin-bottom: 30px;
+    height: 68px;
+    width: 68px;
+    background: url(../img/number-2.svg) center no-repeat;
+    background-size: 68px 68px;
+}
+
+.reason-3 {
+    margin-bottom: 30px;
+    height: 68px;
+    width: 68px;
+    background: url(../img/number-3.svg) center no-repeat;
+    background-size: 68px 68px;
+}
+
+.reason-4 {
+    margin-bottom: 30px;
+    height: 68px;
+    width: 68px;
+    background: url(../img/number-4.svg) center no-repeat;
+    background-size: 68px 68px;
+}
+
+.reasons p {
+    font-size: 18px;
+    line-height: 24px;
+    font-family: SegoeUILight;
+}
+
+.reasons p span {
+    font-family: SegoeUISemiBold;
+}
+
+/*About us*/
+.who {
+    padding-bottom: 50px;
+    padding-top: 70px;
+    margin: 0 auto;
+    max-width: 1920px;
+    background: url(../img/boardroom-2.jpg) center 44% no-repeat;
+    background-color: rgba(50, 50, 50, 0.5);
+    background-blend-mode: darken;
+}
+
+.who h2 {
+    margin-bottom: 46px;
+    position: relative;
+    font-family: SegoeUILight;
+    font-size: 30px;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+
+.who h2::after {
+    position: absolute;
+    bottom: -13px;
+    left: 1px;
+    width: 45px;
+    height: 2px;
+    background-color: #fff;
+    content: "";
+}
+
+.who p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 24px;
+}
+
+/*?????*/
+.map {
+    padding-bottom: 50px;
+    margin: 0 auto;
+    max-width: 1920px;
+    padding-top: 66px;
+    color: #515f67;
+    font-family: SegoeUILight;
+}
+
+.map h2 {
+    margin-bottom: 38px;
+    position: relative;
+    font-size: 30px;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+
+.map h2::after {
+    position: absolute;
+    bottom: -13px;
+    left: 1px;
+    width: 45px;
+    height: 2px;
+    background-color: #515f67;
+    content: "";
+}
+
+
+
+/*Footer*/
+footer {
+    margin: 0 auto;
+    max-width: 1920px;
+    background: rgb(30, 30, 30);
+    color: #fff;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.copyright {
+    text-align: right;
+}
+
+
+/*modal*/
+.modal {
+    color: #000;
+    font-family: SegoeUILight;
+}
+
+label {
+    width: 200px;
+}
+
+input {
+    width: 350px;
+}
+
+.modal .send,
+.modal .btn
+{
+    display: inline-block;
+    padding: 10px 10px;
+    border-radius: 4px;
+    font-size: 20px;
+    text-decoration: none;
+    border: 0;
+    white-space: normal;
+    font-family: SegoeUILight;
+    vertical-align: middle;
+    color: #fff;
+    margin-top: 30px;
+    width: 150px;
+}
+
+.modal .send {
+    margin-right: 250px;
+    background: #3333ff;
+}
+
+.modal .send:hover
+{
+    background: #1111ff;
+}
+.modal .btn
+{
+    background: #ff3333;
+}
+
+.modal .btn:hover
+{
+    background: #ff1111;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Media queries*/
+
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+    /* ????? ????? */
+    /* ????? ????? */
+    .contacts {
+        padding-left: 30px;
+    }
+
+    .catalog {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .step {
+        text-align: center;
+    }
+
+    .step-block{
+        width: 90%;
+        height: 180px;
+    }
+
+    .copyright {
+        margin-top: 30px;
+        text-align: left;
+        padding-left: 15px;
+    }
+
+    input {
+        width: 100%;
+    }
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+    /* ????? ????? */
+    /* ????? ????? */
+    .contacts {
+        padding-left: 30px;
+    }
+
+    .catalog {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .catalog a {
+        width: 100%;
+    }
+
+    .catalog a:hover {
+        width: 100%;
+    }
+
+    .request button {
+        width: 100%;
+    }
+
+    .request button:hover {
+        width: 100%;
+    }
+
+    .step-1::after {
+        display: none;
+    }
+
+    .step-2::after {
+        display: none;
+    }
+
+    .step-3::after {
+        display: none;
+    }
+
+    .step-block{
+        width: 90%;
+        height: 180px;
+    }
+
+    .step-block p{
+        font-size: 22px;
+    }
+
+    .step {
+        text-align: center;
+    }
+
+    .copyright {
+        margin-top: 30px;
+        text-align: left;
+        padding-left: 15px;
+    }
+
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+     .step-2::after {
+        display: none;
+    }
+
+    .step::after {
+        margin-left: 50px;;
+    }
+    .step-block{
+        width: 220px;
+        margin-left: 50px;
+    }
+
+    .step-block p {
+        font-size: 22px;
+    }
+
+}
+
+/* Landscape tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+    .service {
+        width: 20%;
+    }
+
+    .service p {
+        height: auto;
+    }
+
+    .step-2::after {
+        display: none;
+    }
+
+    .step::after {
+        margin-left: 50px;;
+    }
+    .step-block{
+        width: 320px;
+        margin-left: 50px;
+    }
+
+    .step-block p {
+        font-size: 22px;
+    }
+
+}
+
+
+/* Large desktops and laptops */
+@media (min-width: 1200px) {
+
+    .service {
+        width: 20%;
+    }
+
+    .service p {
+        height: auto;
+    }
+
+    .steps .row:last-child{
+        padding-left: 100px;
+    }
+}
